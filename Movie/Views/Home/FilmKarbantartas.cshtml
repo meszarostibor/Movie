@@ -1,0 +1,197 @@
+﻿<script type="text/javascript">
+
+    let indexKep = "";
+    let kep = "";
+
+    function indexKepBeallit() {
+        let preview = document.getElementById("indexKep");
+        let file = document.getElementById("indexKepGomb").files[0];
+        let reader = new FileReader();
+        reader.onload = function (e) {
+            preview.src = e.target.result;
+            indexKep = file;
+        }
+        reader.readAsDataURL(file);
+    }
+
+    function kepBeallit() {
+        let preview = document.getElementById("kep");
+        let file = document.getElementById("kepGomb").files[0];
+        let reader = new FileReader();
+        reader.onload = function (e) {
+            preview.src = e.target.result;
+            kep = file;
+        }
+        reader.readAsDataURL(file);
+    }
+
+    function filmTarol() {
+        //alert("tárolás");
+        let oszkar = parseInt(document.getElementById("oscarE").value);
+        if (oszkar == 0) {
+            oszkar = false;
+        }
+        else {
+            oszkar = true;
+        }
+
+        let body = {
+            "Id": parseInt(document.getElementById("id").textContent),
+            "RendezoId": parseInt(document.getElementById("rendezo").value),
+            "Cim": document.getElementById("cim").value,
+            "Hossz": document.getElementById("hossz").value,
+            "MufajId": document.getElementById("mufaj").value,
+            "OscarE": oszkar,
+            "Korhatar": parseInt(document.getElementById("korhatar").value),
+            "IndexKep": "",
+            "Kep":""        
+        }        
+        console.log(body);
+        alert("pause")
+
+
+    }
+
+</script>
+
+
+@{
+    ViewData["Title"] = "Film karbantartó";
+}
+<h1 style="text-align:center">@ViewData["Title"]</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form onsubmit="filmTarol(event)">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <label id="id" hidden>
+                            @(Model.Film as Film).Id)
+                        </label>
+                        <div class="form-floating mb-3">
+                            <input id="cim"
+                                   type="text"
+                                   class="form-control rounded-3"
+                                   value="@((Model.Film as Film).Cim)"
+                                   required />
+                            <label for="cim">Film címe</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input id="hossz"
+                                   type="time"
+                                   class="form-control rounded-3"
+                                   value="@((Model.Film as Film).Hossz)"
+                                   required />
+                            <label for="hossz">Film hossza</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select id="oscarE"
+                                    class="form-select"
+                                    onblur="oscareBeallit()">
+                                @if ((Model.Film as Film).OscarE)
+                                {
+                                    <option value="0">
+                                        Nem
+                                    </option>
+                                    <option value="1" selected>
+                                        Igen
+                                    </option>
+                                }
+                                else
+                                {
+                                    <option value="0" selected>
+                                        Nem
+                                    </option>
+                                    <option value="1">
+                                        Igen
+                                    </option>
+                                }
+                            </select>
+                            <label for="oscarE">Oszkár díjas</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select id="rendezo"
+                                    class="form-select"
+                                    onblur="rendezoBeallit()">
+                                @foreach (Rendezo rendezo in Model.Rendezok)
+                                {
+                                    if ((Model.Film as Film).RendezoId == rendezo.Id)
+                                    {
+                                        <option value="@rendezo.Id" selected>
+                                            @rendezo.Nev
+                                        </option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@rendezo.Id">
+                                            @rendezo.Nev
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <label for="rendezo">Rendező</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select id="mufaj"
+                                    class="form-select"
+                                    onblur="mufajBeallit()">
+                                @foreach (Mufaj mufaj in Model.Mufajok)
+                                {
+                                    if ((Model.Film as Film).MufajId == mufaj.Id)
+                                    {
+                                        <option value="@mufaj.Id" selected>
+                                            @mufaj.Nev
+                                        </option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@mufaj.Id">
+                                            @mufaj.Nev
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <label for="mufaj">Műfaj</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input id="korhatar"
+                                   type="number"
+                                   class="form-control rounded-3"
+                                   value="@((Model.Film as Film).Korhatar)"
+                                   min="0"
+                                   max="99"
+                                   required />
+                            <label for="korhatar">Korhatár</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card" style="width:80%; margin:auto">
+                            <img id="indexKep" class="card-img-top" src="@Program.ImageConverter((Model.Film as Film).IndexKep)" title="Indexkép" />
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text card-text-center font-weight-bold">Indexkép</p>
+                            <input id="indexKepGomb" type="file" onchange="indexKepBeallit()" accept="image/*" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card" style="width:80%; margin:auto">
+                            <img id="kep" class="card-img-top" src="@Program.ImageConverter((Model.Film as Film).Kep)" title="Kép" />
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text card-text-center font-weight-bold">Kép</p>
+                            <input id="KepGomb" type="file" onchange="KepBeallit()" accept="image/*" />
+                        </div>
+                    </div>
+                </div>
+                <button id="mentesGomb" class="w-100 mb-2 btn btn-primary btn-lg rounded-3">
+                    Adatok mentése
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

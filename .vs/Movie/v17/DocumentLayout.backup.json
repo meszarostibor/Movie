@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Suli\\BACKEND\\Movie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\viewcontrollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\viewcontrollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\views\\home\\filmekdto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\views\\home\\filmekdto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\views\\home\\filmkarbantartas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\views\\home\\filmkarbantartas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\services\\mufajservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\services\\mufajservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\services\\rendezoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\services\\rendezoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\views\\home\\boritokepview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\views\\home\\boritokepview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\movie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\movie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\dtos\\boritokep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\dtos\\boritokep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\dtos\\filmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\dtos\\filmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|d:\\suli\\backend\\movie\\movie\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91179426-7758-49BE-858F-EFE769DBC373}|Movie\\Movie.csproj|solutionrelative:movie\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmKarbantartas.cshtml",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\FilmKarbantartas.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Home\\FilmKarbantartas.cshtml",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\FilmKarbantartas.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Home\\FilmKarbantartas.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T17:29:14.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Movie.csproj",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Movie.csproj",
+              "RelativeDocumentMoniker": "Movie\\Movie.csproj",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Movie.csproj",
+              "RelativeToolTip": "Movie\\Movie.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T15:37:09.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Film.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "Movie\\Models\\Film.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Models\\Film.cs",
+              "RelativeToolTip": "Movie\\Models\\Film.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:12:02.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilmekDTO.cshtml",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\FilmekDTO.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Home\\FilmekDTO.cshtml",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\FilmekDTO.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Home\\FilmekDTO.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T16:57:35.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\ViewControllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Movie\\ViewControllers\\HomeController.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\ViewControllers\\HomeController.cs",
+              "RelativeToolTip": "Movie\\ViewControllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDEAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:53:52.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilmService.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Services\\FilmService.cs",
+              "RelativeDocumentMoniker": "Movie\\Services\\FilmService.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Services\\FilmService.cs",
+              "RelativeToolTip": "Movie\\Services\\FilmService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:19:35.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilmController.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Controllers\\FilmController.cs",
+              "RelativeDocumentMoniker": "Movie\\Controllers\\FilmController.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Controllers\\FilmController.cs",
+              "RelativeToolTip": "Movie\\Controllers\\FilmController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:38:26.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RendezoService.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Services\\RendezoService.cs",
+              "RelativeDocumentMoniker": "Movie\\Services\\RendezoService.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Services\\RendezoService.cs",
+              "RelativeToolTip": "Movie\\Services\\RendezoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:41:30.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MufajService.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Services\\MufajService.cs",
+              "RelativeDocumentMoniker": "Movie\\Services\\MufajService.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Services\\MufajService.cs",
+              "RelativeToolTip": "Movie\\Services\\MufajService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:46:41.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BoritokepView.cshtml",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\BoritokepView.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Home\\BoritokepView.cshtml",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\BoritokepView.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Home\\BoritokepView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T17:42:49.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Boritokep.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\DTOs\\Boritokep.cs",
+              "RelativeDocumentMoniker": "Movie\\DTOs\\Boritokep.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\DTOs\\Boritokep.cs",
+              "RelativeToolTip": "Movie\\DTOs\\Boritokep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:23:16.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T16:58:18.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAD8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T16:55:33.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FilmDTO.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\DTOs\\FilmDTO.cs",
+              "RelativeDocumentMoniker": "Movie\\DTOs\\FilmDTO.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\DTOs\\FilmDTO.cs",
+              "RelativeToolTip": "Movie\\DTOs\\FilmDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBQwAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:40:24.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Program.cs",
+              "RelativeDocumentMoniker": "Movie\\Program.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Program.cs",
+              "RelativeToolTip": "Movie\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBQwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:12:45.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "D:\\Suli\\BACKEND\\Movie\\Movie\\Models\\MovieContext.cs",
+              "RelativeDocumentMoniker": "Movie\\Models\\MovieContext.cs",
+              "ToolTip": "D:\\Suli\\BACKEND\\Movie\\Movie\\Models\\MovieContext.cs",
+              "RelativeToolTip": "Movie\\Models\\MovieContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:11:29.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
