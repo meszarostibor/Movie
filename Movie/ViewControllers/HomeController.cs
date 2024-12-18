@@ -30,18 +30,48 @@ namespace Movie.Controllers
             return View(FilmService.GetFilmekDTO());
         }
 
+        public ActionResult RendezokDTO()
+        {
+            return View(RendezoService.GetRendezokDTO());
+        }
+
+        public async Task<IActionResult> RendezoKarbantartas(int id)
+        {
+            await Task.Delay(500);
+            Rendezo rendezo = RendezoService.GetRendezo(id);
+            if (rendezo == null)
+            {
+                ViewBag.Rendezo = new Rendezo { Id = 0};
+            }
+            else
+            {
+                ViewBag.Rendezo = rendezo;
+            }
+            return View(ViewBag);
+        }
+
+
+
         public IActionResult BoritokepView(int id)
         {
             return View(FilmService.GetBoritokep(id));
         }
 
-        public IActionResult FilmKarbantartas(int id)
+        public async Task<IActionResult> FilmKarbantartas(int id)
         {
-            dynamic myModel=new ExpandoObject();
-            myModel.Film=FilmService.GetFilm(id);
-            myModel.Rendezok = RendezoService.GetRendezok();
-            myModel.Mufajok = MufajService.GetMufajok();
-            return View(myModel);
+            await Task.Delay(500);
+            Film film= FilmService.GetFilm(id);
+            if (film == null)
+            {
+                ViewBag.Film=new Film { Id=0,IndexKep=new byte[0],Kep=new byte[0] };
+            }
+            else
+            {
+                ViewBag.Film = film;
+            }
+            ViewBag.Rendezok = RendezoService.GetRendezok();
+            ViewBag.Mufajok = MufajService.GetMufajok();
+            return View(ViewBag);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

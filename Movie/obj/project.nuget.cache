@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7tFQwxEkjJU=",
+  "dgSpecHash": "P+g/rOw40vQ=",
   "success": true,
-  "projectFilePath": "D:\\Suli\\BACKEND\\Movie\\Movie\\Movie.csproj",
+  "projectFilePath": "D:\\SULI\\BACKEND\\Movie\\Movie\\Movie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mesza\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\mesza\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

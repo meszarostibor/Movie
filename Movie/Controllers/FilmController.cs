@@ -29,31 +29,31 @@ namespace Movie.Controllers
             }
         }
 
-        public IActionResult Put([FromForm] string Json, [FromForm] IFormFile indexKep, [FromForm] IFormFile kep)
+        [HttpPut]
+        //http?://localhost:xxxx/api/film
+        public async Task<IActionResult> Put([FromForm] string Json, [FromForm] IFormFile indexKep, [FromForm] IFormFile kep)
         {
             using (var context = new MovieContext())
             {
                 try
                 {
-                    Film film = JsonConvert.DeserializeObject<Film>(Json);                
+                    Film film = JsonConvert.DeserializeObject<Film>(Json);
                     byte[] IndexKep;
-                    using (var ms = new MemoryStream()) 
+                    using (var ms=new MemoryStream())
                     {
-                        indexKep.CopyTo(ms);
-                        IndexKep = ms.ToArray();
+                        await indexKep.CopyToAsync(ms);
+                        IndexKep= ms.ToArray();
                     }
-
                     byte[] Kep;
                     using (var ms = new MemoryStream())
                     {
-                        kep.CopyTo(ms);
+                        await kep.CopyToAsync(ms);
                         Kep = ms.ToArray();
                     }
-
                     film.IndexKep = IndexKep;
                     film.Kep = Kep;
-                    context.Films.Update(film);                    
-                    context.SaveChanges();
+                    context.Films.Update(film);
+                    await context.SaveChangesAsync();
                     return Ok("A film adatainak a módosítása sikeresen megtörtént.");
                 }
                 catch (Exception ex)
@@ -63,5 +63,39 @@ namespace Movie.Controllers
             }
         }
 
+        [HttpPost]
+        //http?://localhost:xxxx/api/film
+        public async Task<IActionResult> Post([FromForm] string Json, [FromForm] IFormFile indexKep, [FromForm] IFormFile kep)
+        {
+            using (var context = new MovieContext())
+            {
+                try
+                {
+                    Film film = JsonConvert.DeserializeObject<Film>(Json);
+                    byte[] IndexKep;
+                    using (var ms = new MemoryStream())
+                    {
+                        await indexKep.CopyToAsync(ms);
+                        IndexKep = ms.ToArray();
+                    }
+                    byte[] Kep;
+                    using (var ms = new MemoryStream())
+                    {
+                        await kep.CopyToAsync(ms);
+                        Kep = ms.ToArray();
+                    }
+                    film.Id = 0;
+                    film.IndexKep = IndexKep;
+                    film.Kep = Kep;
+                    context.Films.Add(film);
+                    await context.SaveChangesAsync();
+                    return Ok("Az új film felvétele sikeresen megtörtént.");
+                }
+                catch (Exception ex)
+                {
+                    return BadRequest(ex.Message);
+                }
+            }
+        }
     }
 }

@@ -9,51 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Movie
 build_property.RootNamespace = Movie
-build_property.ProjectDir = D:\Suli\BACKEND\Movie\Movie\
+build_property.ProjectDir = D:\SULI\BACKEND\Movie\Movie\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Suli\BACKEND\Movie\Movie
+build_property.MSBuildProjectDirectory = D:\SULI\BACKEND\Movie\Movie
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Home/BoritokepView.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/BoritokepView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb3JpdG9rZXBWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Home/FilmekDTO.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/FilmekDTO.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWxtZWtEVE8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Home/FilmKarbantartas.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/FilmKarbantartas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWxtS2FyYmFudGFydGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Home/Index.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Home/Privacy.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Shared/Error.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/RendezoKarbantartas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW5kZXpvS2FyYmFudGFydGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SULI/BACKEND/Movie/Movie/Views/Home/RendezokDTO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW5kZXpva0RUTy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SULI/BACKEND/Movie/Movie/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/_ViewImports.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/_ViewStart.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Suli/BACKEND/Movie/Movie/Views/Shared/_Layout.cshtml]
+[D:/SULI/BACKEND/Movie/Movie/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ihiklq3rwc

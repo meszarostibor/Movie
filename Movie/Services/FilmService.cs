@@ -80,7 +80,7 @@ namespace Movie.Services
                 }
                 catch
                 {
-                    return new Film {Id=0 };
+                    return new Film { Id=0};
                 }
             }
         }
