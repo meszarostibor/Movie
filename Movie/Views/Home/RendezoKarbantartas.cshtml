@@ -4,11 +4,11 @@
     function rendezoTarol() {
         let body = {
             "Id": parseInt(document.getElementById("id").textContent),
-            "RendezoNev": document.getElementById("nev").value,
+            "Nev": document.getElementById("nev").value,
             "Nemzetiseg": document.getElementById("nemzetiseg").value,
             "SzulDatum": document.getElementById("szulDatum").value,
         }
-        let url = "https://localhost:7050/api/rendezo";
+        let url = "http://localhost:5209/api/rendezo";
         var formData = new FormData();
         formData.append("Json", JSON.stringify(body));
         if (body.Id != 0) {
@@ -30,8 +30,6 @@
             });
         }
     }
-
-
 </script>
 
 
@@ -46,8 +44,9 @@
         <div class="col-12">
             <form onsubmit="rendezoTarol()">
                 <div class="row">
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-md-4 col-sm-12">     
                         <label id="id" hidden>@((ViewBag.Rendezo as Rendezo).Id)</label>
+
                         <div class="form-floating mb-3">
                             <input id="nev"
                                    type="text"
@@ -76,12 +75,12 @@
                                    class="form-control rounded-3"
                                    value="@((ViewBag.Rendezo as Rendezo).SzulDatum)"
                                    required />
-                            <label for="hossz">Nemzetiség</label>
+                            <label for="hossz">Születési dátum</label>
                         </div>
                     </div>
                 </div>
 
-                <button id="mentesGomb" class="w-100 mb-2 btn btn-primary btn-lg rounded-3">
+                <button id="mentesGomb2" class="w-100 mb-2 btn btn-primary btn-lg rounded-3">
                     Adatok mentése
                 </button>
             </form>

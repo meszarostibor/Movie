@@ -9,7 +9,6 @@ namespace Movie.Controllers
     [ApiController]
     public class RendezoController : ControllerBase
     {
-
         [HttpDelete("{id}")]
         //http?://localhost:xxxx/api/rendezo/id
         public IActionResult Delete(int id)
